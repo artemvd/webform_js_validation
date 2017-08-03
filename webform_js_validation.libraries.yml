@@ -1,0 +1,10 @@
+form_validation:
+  version: 1.x
+  js:
+    js/form_validation.js: {}
+  css:
+    theme:
+      css/form_validation.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

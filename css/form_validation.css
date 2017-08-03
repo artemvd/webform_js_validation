@@ -1,0 +1,29 @@
+.validation {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -250px;
+    width: 250px;
+}
+
+.error {
+    position: relative;
+}
+
+.error.validation-error .validation {
+    display: block;
+}
+
+.validation.pattern,
+.error.validation-error .validation.pattern,
+.validation .email {
+    display: none;
+}
+
+.error.invalid-email .validation .email {
+    display: block;
+}
+
+.error.validation-error.pattern-error .validation.pattern {
+    display: block;
+}
