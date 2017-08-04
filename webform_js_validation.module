@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function webform_js_validation_theme() {
+  $info = [
+    'webform_handler_js_form_validation_summary' => [
+      'variables' => [
+        'web_form' => [],
+        'handler' => []
+      ],
+    ],
+  ];
+  return $info;
+}
